@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3cbbceec-3b66-4fdd-b189-1f480c50cd19" name="Kooli server" url="http://stokkebyraul.ikt.khk.ee">
+        <fileTransfer host="stokkebyraul.ikt.khk.ee" port="22" rootFolder="/home/stokkebyrauliktk" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
