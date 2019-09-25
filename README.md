@@ -20,13 +20,10 @@ git init
 ```
 Nüüd lisa muudatud fail jälgimissüsteemi (git)
 
-Ülevalt VCS > Git > add (ctrl + alt + A)
 ```
 git add (failinimi)
 ```
 Koosta kirjeldus antud muudatustele
-
-Seda saab teha PhpStormis ülevalt VCS > commit (ctrl + k)
 
 ```
 git comit -m "Kirjelduse sõne"
@@ -34,8 +31,16 @@ git comit -m "Kirjelduse sõne"
 
 Lükka lokaalsest repost kirjeldus kaugreposse (näiteks github.com)
 
-Ülevalt VCS > Git > push (ctrl + shift + k)
 ```
 git push -uf origin master
 ```
 Siin origin on ühenduse nimi ja master on peaharu
+
+
+* Git kasutamine läbi PhpStormi
+
+Seda saab teha PhpStormis ülevalt VCS > commit (ctrl + k)
+
+Vali vajalikud failid, mis on vaja antud commitiga seostada, lisa commiti sõne ja vajuta Commit või Commit and Push
+
+
