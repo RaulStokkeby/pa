@@ -21,3 +21,9 @@ echo "Email: " .$email. "<br>";
 echo "Vanus: " .$vanus. "<br>";
 echo "Pikkus: " .$pikkus. "<br>";
 echo "Kaal: " .$kaal. "<br>";
+
+// muutujate dünaamiline defineerimine
+
+$kmi = $kaal / ($pikkus * $pikkus);
+
+echo "Minu kehamassiindeks on: " . $kmi. "<br>";
