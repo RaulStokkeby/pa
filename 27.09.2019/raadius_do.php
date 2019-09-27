@@ -9,6 +9,11 @@ $raadius = $_GET['raadius'];
 $pindala = $raadius * $raadius * 3.14;
 $umbermoot = $raadius * 2 * 3.14;
 
+// muutujate andmetüüpide ja väärtuste kontroll
+
+    /* var_dump($pindala);
+       var_dump($umbermoot); */
+
 //  väljastan sisestatud raadiuse väärtuse ning selle raadiusega ringi pindala ja ümbermõõdu
 
 echo 'Sisestatud raadius on: ' .$raadius. '<br><br>';
