@@ -1,7 +1,7 @@
 <?php
 // php block
 ?>
-
+<!-- Loon vormi mis võtab kasutajalt ringi raadiuse -->
 
 <form action="raadius_do.php" method="get">
         <label for="radius">Sisesta ringi raadius:</label>
