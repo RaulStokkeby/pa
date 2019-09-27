@@ -43,4 +43,30 @@ Seda saab teha PhpStormis ülevalt VCS > commit (ctrl + k)
 
 Vali vajalikud failid, mis on vaja antud commitiga seostada, lisa commiti sõne ja vajuta Commit või Commit and Push
 
+###27.09.2019
+
+* php sisefunctioonide kasutamine
+
+
+## Tegelesime eelmise tunni kordamisega (sisend ja väljund)
+ 
+## Kontrollisime muutuja siseinfot
+ 
+```
+<?php
+var_dump()
+?>
+```
+ 
+## Vaatasime olemasolevaid matemaatilisi funktsioone
+
+ * Pi funktsioon
+ ```
+pi()
+```
+ 
+ * Ümardamimne
+```
+round()
+```
 
