@@ -1,72 +1,46 @@
-#Programmeerimise alused
-Antud kursus annab ülevaate programmeerimise aluste baasteadmistest PHP keele baasil
+# Programmeerimise alused
+Antud kursus annab ülevaade programmeerimise aluste baasteadmistest PHP keele baasil
 ## Ajakava
 ### 20.09.2019
 * Tarkvara installeerimine
     * [PhpStorm](https://www.jetbrains.com/phpstorm/)
-    * [git](git-scm.com/download/)
-* Tarkvara seadmistamine
-    * Valmistasime litsentsi
-    * PhpStorm põhiseadistus
-    * git.exe ühendust PhpStormiga
-    * github.com repo loomine ja ühendamine PhpStormiga
+    * [git](https://git-scm.com/downloads)
+* Tarkvara seadistamine
+    * Valmista litsens
+    * PhpStom põhiseadistus (line numbers, soft wrap, zoom)
+    * git.exe ühendus PhpStormiga
+    * github.com repo loomine ning ühendamine PhpStormiga
 ### 25.09.2019
-* Git kasutamine käsureal
+* git kasutamine käsurealt
 
 Kui repo ei ole initsialiseeritud, siis tuleb see ära teha
-
 ```
 git init
 ```
 Nüüd lisa muudatud fail jälgimissüsteemi (git)
-
 ```
-git add (failinimi)
+git add failinimi
 ```
-Koosta kirjeldus antud muudatustele
-
+Koosta kirjeldus antud muudatusele
 ```
-git comit -m "Kirjelduse sõne"
+git commit -m "Kirjelduse sõne"
 ```
-
-Lükka lokaalsest repost kirjeldus kaugreposse (näiteks github.com)
-
+Lükka lokaalsest repost kirjeldus kausreposse (näiteks github.com)
 ```
 git push -uf origin master
 ```
 Siin origin on ühenduse nimi ja master on peaharu
 
-
-* Git kasutamine läbi PhpStormi
-
-Seda saab teha PhpStormis ülevalt VCS > commit (ctrl + k)
-
-Vali vajalikud failid, mis on vaja antud commitiga seostada, lisa commiti sõne ja vajuta Commit või Commit and Push
-
-###27.09.2019
-
-* php sisefunctioonide kasutamine
-
-
-## Tegelesime eelmise tunni kordamisega (sisend ja väljund)
- 
-## Kontrollisime muutuja siseinfot
- 
+* git kasutamine läbi PhpStormi
 ```
-<?php
-var_dump()
-?>
+VCS -> Commit (Ctrl + K)
 ```
- 
-## Vaatasime olemasolevaid matemaatilisi funktsioone
+Antud kanas vali vajalikud failid, mis on vaja antud commitiga seostada, lisa commiti sõne ja vajuta Commit või Commit and Push
 
- * Pi funktsioon
- ```
-pi()
-```
- 
- * Ümardamimne
-```
-round()
-```
-
+### 27.09.2019
+* PHP sisefunktsioonide kasutamine -  [loe veel](https://github.com/AnnaKarutina/pa_vs19_1/tree/master/27.09.2019)
+### 07.09.2019
+* Operaatorid - [Aritmeetilised operaatorid](https://www.metshein.com/course/php-alused/)
+### 08.09.2019
+* Tingimuslaused - [Tingimuslaused](https://www.metshein.com/course/php-alused/)
+* Kodutöö - [Tingimuslaused](https://www.metshein.com/course/php-alused/) - Ülesanded 3-5
