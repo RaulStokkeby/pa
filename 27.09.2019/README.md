@@ -1,27 +1,23 @@
 # Päeva teemad
-
-## Tegelesime eelmise tunni kordamisega (sisend ja väljund)
- 
-## Kontrollisime muutuja siseinfot
- 
+## Muutuja siseinfo kontroll
 ```
 <?php
-var_dump()
+var_dump($muutujaNimi);
 ?>
 ```
- 
-## Vaatasime olemasolevaid matemaatilisi funktsioone
-
- * Pi funktsioon
- ```
-pi()
+Loe rohkem [https://www.php.net/manual/en/function.var-dump.php](https://www.php.net/manual/en/function.var-dump.php)
+## PHP sisefunktsioonide kasutamine
+* PI arvutamine
 ```
- 
- * Ümardamimne
+<?php
+pi();
+?>
 ```
-round()
+Loe rohkem: [https://www.php.net/manual/en/function.pi.php](https://www.php.net/manual/en/function.pi.php)
+* Väärtuse ümmardamine
 ```
-
- 
- 
-
+<?php
+round($muutujaNimi, täpsuseVäärtus);
+?>
+```
+Loe rohkem: [https://www.php.net/manual/en/function.round.php](https://www.php.net/manual/en/function.round.php)
