@@ -35,7 +35,11 @@ function tableBody($rowNumber, $colNumber){
     for($row = 1; $row <= $rowNumber; $row++){
         echo '<tr>';
         for($col = 1; $col <= $colNumber; $col++){
-            echo '<td style="background-color: ">';
+            $color = '#';
+            for($count = 1; $count < 7; $count++) {
+                $color = $color.dechex(rand(0, 15));
+            }
+            echo '<td style="background-color: '.$color.' ">';
             echo rand(10, 99);
             echo '</td>';
         }
