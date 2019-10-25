@@ -39,8 +39,12 @@ Antud kanas vali vajalikud failid, mis on vaja antud commitiga seostada, lisa co
 
 ### 27.09.2019
 * PHP sisefunktsioonide kasutamine -  [loe veel](https://github.com/AnnaKarutina/pa_vs19_1/tree/master/27.09.2019)
-### 07.09.2019
+### 07.10.2019
 * Operaatorid - [Aritmeetilised operaatorid](https://www.metshein.com/course/php-alused/)
-### 08.09.2019
+### 08.10.2019
 * Tingimuslaused - [Tingimuslaused](https://www.metshein.com/course/php-alused/)
 * Kodutöö - [Tingimuslaused](https://www.metshein.com/course/php-alused/) - Ülesanded 3-5
+### 17.10.2019
+* Tsükli - [Tsüklid](https://www.metshein.com/kursus/)
+### 22.10.2019
+* Funktsioonid - [Funktsioonid](https://www.metshein.com/kursus/)
